@@ -28,6 +28,8 @@ if (deltaY - dragOffset <= 0 || scrollParent.scrollTop > 0) {
       $element[0].classList.add('active');
     });
     // self.isLoading = true;
+    //modify by fei:
+    self.isLoading = self.jsScrolling;
     $scope.$parent && $scope.$parent.$apply($attrs.onInfinite || '');
   }
 ```

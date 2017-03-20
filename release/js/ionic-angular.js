@@ -5728,7 +5728,8 @@ function($scope, $attrs, $element, $timeout) {
     ionic.requestAnimationFrame(function() {
       $element[0].classList.add('active');
     });
-    // self.isLoading = true;
+    //modify by fei:
+    self.isLoading = self.jsScrolling;
     $scope.$parent && $scope.$parent.$apply($attrs.onInfinite || '');
   }
 
