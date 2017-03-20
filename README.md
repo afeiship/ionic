@@ -20,3 +20,8 @@ if (deltaY - dragOffset <= 0 || scrollParent.scrollTop > 0) {
   // ionic codes...
 }
 ```
+
++ ionic.js
+```javascript
+// container.style.height = scrollViewOffsetHeight + "px";
+```

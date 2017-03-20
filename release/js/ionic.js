@@ -7378,7 +7378,7 @@ ionic.scroll = {
 
               //console.log('Old container height', self.__originalContainerHeight, 'New container height', scrollViewOffsetHeight, 'Keyboard height', e.detail.keyboardHeight);
 
-              container.style.height = scrollViewOffsetHeight + "px";
+              // container.style.height = scrollViewOffsetHeight + "px";
 
               /*
               if (ionic.Platform.isIOS()) {
