@@ -21,7 +21,20 @@ if (deltaY - dragOffset <= 0 || scrollParent.scrollTop > 0) {
 }
 ```
 
++ modify:
+```javascript
+  function onInfinite() {
+    ionic.requestAnimationFrame(function() {
+      $element[0].classList.add('active');
+    });
+    // self.isLoading = true;
+    $scope.$parent && $scope.$parent.$apply($attrs.onInfinite || '');
+  }
+```
+
+
 + ionic.js
 ```javascript
 // container.style.height = scrollViewOffsetHeight + "px";
 ```
+
