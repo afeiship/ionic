@@ -1,5 +1,5 @@
-#ionic
-> Fix a bug for my project.
+# ionic
+> Fix a bug for my project based on 1.3.2 + ng1.5.3.
 
 ## code refactor (/release/js/ionic-angular.js):
 + delete:
